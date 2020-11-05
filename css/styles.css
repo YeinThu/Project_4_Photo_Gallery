@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  background: seashell;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a,
+input {
+  display: inline-block;
+}
+
+/* Header */
+header {
+  padding: 1.4rem;
+}
+
+header #search {
+  padding: 0.5rem;
+  width: 60%;
+  font-size: 1rem;
+  border: 2px solid #e8e8e8;
+  border-radius: 5px;
+  outline: none;
+  color: gray;
+}
+
+header #search:focus {
+  border: 2px solid slategrey;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(200px, max-content));
+  grid-gap: 1rem;
+}
+
+.grid a img {
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.grid a img:hover {
+  transform: scale(1.1);
+}
