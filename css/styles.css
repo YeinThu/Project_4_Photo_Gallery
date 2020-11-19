@@ -6,7 +6,7 @@
 
 /* General Styles */
 body {
-  background: seashell;
+  background: url('../photos/linen.jpg');
 }
 
 .wrapper {
@@ -43,8 +43,9 @@ header #search:focus {
 .grid {
   display: grid;
   max-width: 100%;
-  grid-template-columns: repeat(auto-fill, minmax(200px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
   grid-gap: 1rem;
+  justify-content: center;
 }
 
 .grid a img {
