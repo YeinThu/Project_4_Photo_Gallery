@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-  width: 60%;
+  max-width: 1024px;
   margin: 0 auto;
   text-align: center;
 }
@@ -46,6 +46,7 @@ header #search:focus {
   grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
   grid-gap: 1rem;
   justify-content: center;
+  padding: 0 2.2rem;
 }
 
 .grid a img {
